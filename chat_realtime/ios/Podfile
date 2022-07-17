@@ -12,6 +12,8 @@ target 'chat_realtime' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'chat_realtimeTests' do
     inherit! :complete
     # Pods for testing
